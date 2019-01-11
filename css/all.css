@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+/*css reset box sizing*/
+
+
+.clearfix{
+	clear: both;
+}
+
+
+.warp{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+.topmenu{
+	display:block;
+	height: 30px;
+	background:#f6f6f6;
+}
+
+.topmenu img{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.topmenu ul{
+	float: right;
+}
+
+.topmenu ul li{
+	float: left;
+	margin-right: 5px;
+	padding-right: 5px;
+	
+}
+
+.topmenu ul li a{
+	text-decoration: none;
+	padding:2px;
+	
+}
+
+.topmenu ul li a span{
+	margin: 0 0 0 5px;
+	font-weight: bold;
+}
+
+.topmenu .top-fb{
+	border-right: 2px solid #cccccc;
+}
+
+.top-fb span{
+	color: #5c74ab;
+	padding: 5px;
+}
+
+.top-tw span{
+	color: #94d8f2;
+	padding: 5px;
+}
+
+
+#logo{
+	background: url(../image/logo.png) no-repeat;
+	height: 44px;
+	width: 177px;
+	float: left;
+	text-indent: 354px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-bottom: 2px;
+}
+
+
+
+.menu .list{
+	float: right;
+}
+
+
+.menu .list li{
+	float: left;
+	padding: 15px 0 10px 0;
+	margin-right: 30px;	
+}
+
+
+.menu .list > li:hover{
+	border-bottom: 3px solid #00cc99;
+}
+
+.menu .list li a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	color: #00cc99;
+	font-weight: bold;
+}
+
+
+.list .product{
+
+	width: 72px;
+	display: none;
+	padding: 10px;
+
+
+}
+
+.list .product li{
+	margin: 0;
+	width: 72px;
+}
+
+.list .product a:hover{
+	background: #cccccc;
+	color: white;
+}
+
+.lesson ul{
+	float: left;
+	margin: 65px 0px 60px 0;
+}
+
+.lesson ul li{
+	float: left;
+	width: 300px;
+	height: 325px;
+	border: 1px solid #f1f1f1;
+	border-top: 0;
+	padding:0 15px 0 10px;
+	margin: 0 15px 0 10px;
+	box-shadow: 0px 2px 3px 2px rgba(20%,20%,40%,0.6);
+}
+
+.lesson ul li h3{
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.lesson ul li p{
+	text-align: justify;
+	letter-spacing: .1em;
+	line-height: 20px;
+}
+
+.lesson ul li ol{
+	list-style-type: disc;
+	margin-left: 10px;
+}
+
+.lesson ul li ol li{
+	height: auto;
+	width: auto;
+	border:0;
+	box-shadow: none;
+	padding: 0;
+}
+
+.conpare{
+	margin: 0 auto;
+}
+.conpare h2{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+
+.conpare .form{
+	margin: 0 auto;
+	width: 840px;
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.form td , .form th{
+	padding-left: 25px;
+	height: 35px;
+	border-top: 1px solid #ebebeb;
+  	border-bottom: 1px solid #ebebeb;
+  	line-height: 30px;
+}
+
+
+.form th{
+	background: #f7f7f7;
+	font-weight: bold;
+}
+
+.form .lower{
+	color: #11ac86;
+}
+
+.contact{
+	background:url(../image/contact-bg.jpg) repeat-x;
+	height: 400px;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.contact h2{
+	font-size: 28px;
+	text-align: center;
+	color: white;
+	padding:35px 0 30px 0;
+	line-height: 40px;
+}
+
+.contact .form-question{
+	float: left;
+
+	margin: 20px 0 10px 20px ;
+	
+	
+}
+
+.contact .form-question textarea{
+	border: 0;
+	border-radius: 5px;
+}
+
+.contact .form-data{
+	margin: 10px;
+	width: 480px;
+	float: right;
+}
+.contact .form-data label{
+	font-size: 14px;
+	color: white;
+
+}
+
+.contact .form-data input{
+	width: 480px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+
+.contact .form-data .button{
+	color: white;
+	height: 30px;
+	width: 60px;
+	border: 1.5px solid #00cc99;
+	border-radius: 3px;
+	background-color: #00cc99; 
+	float: right;
+	cursor: pointer;
+	
+}
+
+.footer{
+
+}
+
+#footer-logo{
+	margin: 20px 0 10px 20px;
+	background: url(../image/logo2.png) no-repeat;
+	height: 50px;
+	width: 180px;
+	float: left;
+	text-indent: 354px;
+	overflow: hidden;
+	white-space: nowrap;
+	
+}
+
+
+.footer ul{
+	float: right;
+	margin-top: 30px;	
+}
+
+.footer ul li{
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+
+.footer ul li span{
+	color: #e12d80;
+}
+
+
+.top{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	height: 64px;
+	width: 64px;
+	opacity: 0.6;
+}
+
+
+
